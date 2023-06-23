@@ -8,7 +8,7 @@ const MONGO = {
     return `mongodb+srv://${this.username}:${this.password}@<YOUR_DB>`;
   },
   localUrl: function () {
-    return 'mongodb://203.77.60.140:443/erp';
+    return 'mongodb://203.77.60.140:443/pet';
   },
 };
 
